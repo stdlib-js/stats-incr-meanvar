@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-meanvar",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Compute an arithmetic mean and unbiased sample variance incrementally.",
   "license": "Apache-2.0",
   "author": {
