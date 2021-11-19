@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrmeanvar
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute an [arithmetic mean][arithmetic-mean] and an [unbiased sample variance][sample-variance] incrementally.
 
@@ -194,10 +194,10 @@ for ( i = 0; i < N; i++ ) {
 
 ## See Also
 
--   [`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]: compute an arithmetic mean incrementally.
--   [`@stdlib/stats/incr/meanstdev`][@stdlib/stats/incr/meanstdev]: compute an arithmetic mean and corrected sample standard deviation incrementally.
--   [`@stdlib/stats/incr/mmeanvar`][@stdlib/stats/incr/mmeanvar]: compute a moving arithmetic mean and unbiased sample variance incrementally.
--   [`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]: compute an unbiased sample variance incrementally.
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/meanstdev`][@stdlib/stats/incr/meanstdev]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean and corrected sample standard deviation incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mmeanvar`][@stdlib/stats/incr/mmeanvar]</span><span class="delimiter">: </span><span class="description">compute a moving arithmetic mean and unbiased sample variance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]</span><span class="delimiter">: </span><span class="description">compute an unbiased sample variance incrementally.</span>
 
 </section>
 
@@ -248,8 +248,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-meanvar/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-meanvar?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-meanvar.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-meanvar/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
