@@ -30,10 +30,14 @@ The [arithmetic mean][arithmetic-mean] is defined as
 
 <!-- <equation class="equation" label="eq:arithmetic_mean" align="center" raw="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" alt="Equation for the arithmetic mean."> -->
 
-<div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
+```math
+\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@b2df03cb2a582cf1df289c3ddca6922c0db854b4/lib/node_modules/@stdlib/stats/incr/meanvar/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -41,21 +45,41 @@ and the [unbiased sample variance][sample-variance] is defined as
 
 <!-- <equation class="equation" label="eq:unbiased_sample_variance" align="center" raw="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2" alt="Equation for the unbiased sample variance."> -->
 
-<div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2" data-equation="eq:unbiased_sample_variance">
+```math
+s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2
+```
+
+<!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2" data-equation="eq:unbiased_sample_variance">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@eafa6e61d15b7c712c9288d59d8e0e3f0aa6c011/lib/node_modules/@stdlib/stats/incr/meanvar/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for the unbiased sample variance.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-meanvar
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@esm/index.mjs';
+var incrmeanvar = require( '@stdlib/stats-incr-meanvar' );
 ```
 
 #### incrmeanvar( \[out] )
@@ -69,7 +93,7 @@ var accumulator = incrmeanvar();
 By default, the returned accumulator `function` returns the accumulated values as a two-element `array`. To avoid unnecessary memory allocation, the function supports providing an output (destination) object.
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+var Float64Array = require( '@stdlib/array-float64' );
 
 var accumulator = incrmeanvar( new Float64Array( 2 ) );
 ```
@@ -123,16 +147,11 @@ mv = accumulator();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
-import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var Float64Array = require( '@stdlib/array-float64' );
+var ArrayBuffer = require( '@stdlib/array-buffer' );
+var incrmeanvar = require( '@stdlib/stats-incr-meanvar' );
 
 var offset;
 var acc;
@@ -177,10 +196,6 @@ for ( i = 0; i < N; i++ ) {
     mv = acc[ i ]();
     console.log( '%d\t%d', mv[ 0 ].toFixed( 3 ), mv[ 1 ].toFixed( 3 ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -213,7 +228,7 @@ for ( i = 0; i < N; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -257,7 +272,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -279,13 +294,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean/tree/esm
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
 
-[@stdlib/stats/incr/meanstdev]: https://github.com/stdlib-js/stats-incr-meanstdev/tree/esm
+[@stdlib/stats/incr/meanstdev]: https://github.com/stdlib-js/stats-incr-meanstdev
 
-[@stdlib/stats/incr/mmeanvar]: https://github.com/stdlib-js/stats-incr-mmeanvar/tree/esm
+[@stdlib/stats/incr/mmeanvar]: https://github.com/stdlib-js/stats-incr-mmeanvar
 
-[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/esm
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
 
 <!-- </related-links> -->
 
