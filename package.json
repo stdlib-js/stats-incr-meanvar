@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-is-array-like-object": "^0.1.0",
-    "@stdlib/math-base-assert-is-nan": "^0.1.0",
-    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.1",
+    "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
