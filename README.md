@@ -74,7 +74,7 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2
 ## Usage
 
 ```javascript
-import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@esm/index.mjs';
+import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@v0.2.1-esm/index.mjs';
 ```
 
 #### incrmeanvar( \[out] )
@@ -151,7 +151,7 @@ mv = accumulator();
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
-import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@esm/index.mjs';
+import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@v0.2.1-esm/index.mjs';
 
 var offset;
 var acc;
