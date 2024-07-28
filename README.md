@@ -74,6 +74,11 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2
 ## Usage
 
 ```javascript
+import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-meanvar/tags). For example,
+
+```javascript
 import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@v0.2.2-deno/mod.js';
 ```
 
@@ -146,7 +151,7 @@ mv = accumulator();
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
-import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@v0.2.2-deno/mod.js';
+import incrmeanvar from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanvar@deno/mod.js';
 
 var offset;
 var acc;
