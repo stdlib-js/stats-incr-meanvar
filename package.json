@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-meanvar",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Compute an arithmetic mean and unbiased sample variance incrementally.",
   "license": "Apache-2.0",
   "author": {
@@ -38,15 +38,15 @@
   },
   "dependencies": {
     "@stdlib/assert-is-array-like-object": "^0.2.2",
-    "@stdlib/math-base-assert-is-nan": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/math-base-assert-is-nan": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
-    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
