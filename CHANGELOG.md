@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-25)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`46f06ad`](https://github.com/stdlib-js/stdlib/commit/46f06ad6754741320241c60ff79ffdf0a7175b07) - **docs:** fix section tags in README files _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-07)

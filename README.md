@@ -67,6 +67,10 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2
 
 <!-- </equation> -->
 
+</section>
+
+<!-- /.intro -->
+
 <section class="installation">
 
 ## Installation
@@ -271,8 +275,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-incr-meanvar.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-incr-meanvar
 
-[test-image]: https://github.com/stdlib-js/stats-incr-meanvar/actions/workflows/test.yml/badge.svg?branch=v0.2.3
-[test-url]: https://github.com/stdlib-js/stats-incr-meanvar/actions/workflows/test.yml?query=branch:v0.2.3
+[test-image]: https://github.com/stdlib-js/stats-incr-meanvar/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-incr-meanvar/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-meanvar/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-meanvar?branch=main
